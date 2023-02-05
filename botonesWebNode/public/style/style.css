@@ -1,0 +1,40 @@
+body {
+    padding-top: 51px;
+    text-align: center;
+    background-color: bisque;
+}
+
+.jumbotron {
+    border-radius: 18px;
+    background-color: lightgreen;
+}
+
+.img {
+    width: 270px;
+    padding-top: 9px;
+    border-radius: 18px;
+}
+
+h1 {
+    font-size: 36px;
+    padding-bottom: 9px;
+}
+
+.elemento {
+    padding: 9px;
+}
+
+.botones {
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.botones button {
+    margin-left: 6px;
+    margin-right: 6px;
+    font-size: 30px;
+}
+
+.texto {
+    font-size: 30px;
+}

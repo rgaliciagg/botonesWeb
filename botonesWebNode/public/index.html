@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Envio de Datos de Web a Arduino Uno/Raspberry Pi Pico</title>
+    <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Envío de Datos de Web a Arduino Uno/Raspberry Pi Pico</h1>
+            <div class="botones">
+                <button type="button" class="btn btn-danger" onclick="boton(1)">1</button>
+                <button type="button" class="btn btn-primary" onclick="boton(2)">2</button>
+                <button type="button" class="btn btn-primary" onclick="boton(3)">3</button>
+            </div>
+            <div class="botones">
+                <button type="button" class="btn btn-primary" onclick="boton(4)">4</button>
+                <button type="button" class="btn btn-primary" onclick="boton(5)">5</button>
+                <button type="button" class="btn btn-primary" onclick="boton(6)">6</button>
+            </div>
+            <div class="botones">
+                <button type="button" class="btn btn-primary" onclick="boton(7)">7</button>
+                <button type="button" class="btn btn-primary" onclick="boton(8)">8</button>
+                <button type="button" class="btn btn-primary" onclick="boton(9)">9</button>
+            </div>
+            <h2 id="texto">Dato Enviado:</h2>
+        </div>
+    </div>
+    <script src="script/script.js"></script>
+</body>
+
+</html>
